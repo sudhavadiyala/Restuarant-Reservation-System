@@ -46,8 +46,6 @@
     background-image: url(images/v07.jpg);
 
 }
-
-
 .collection.a
 {
    alignment: center;
@@ -177,4 +175,9 @@ hr{
 
     font-family: "Arial Black";
     font-size:15px;
+}
+
+.bc
+{
+
 }
