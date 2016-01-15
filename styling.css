@@ -7,10 +7,7 @@
     position: relative;
     box-shadow: 0 0 0 2px #a9aaab;
     float: left;
-    /*
-     Child elements with absolute positioning will be
-     positioned relative to this div
-    */
+
 }
 
 #inner-circle {
