@@ -1,0 +1,229 @@
+
+#outer-circle {
+
+
+    background: #385a94;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    box-shadow: 0 0 0 2px #a9aaab;
+    float: left;
+
+}
+
+#inner-circle {
+    position: fixed;
+    background: #a9aaab;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    top:10px;
+    left: 10px;
+    right: 10px;
+}
+.welcome
+{
+   font-family: fantasy;
+    font-size: 25px;
+    color: #0000ff;
+    padding-left: 100px;
+    margin: 0%;
+}
+.wel{
+    font-family: "Arial Black";
+    font-size:15px;
+    color: black;
+}
+
+.center_div{
+    margin: 0 auto;
+    width:80% ;
+}
+
+.menu
+{
+   padding-left: 300px;
+    padding-top:40px;
+    background-image: url(../images/v07.jpg);
+
+}
+.collection.a
+{
+   alignment: center;
+    font-family: "Arial Black";
+}
+
+.collection1.a
+{
+   alignment: center;
+    font-family: "Arial Black";
+}
+
+.img1 {
+    background-image: url(../images/buffet.jpg);
+    display: inline-block;
+    width: 30%;
+    right: 0px;
+    height: 15rem;
+    alignment: left;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Arial Black";
+    color: black;
+
+}
+.img2
+{
+    background-image: url(../images/thali.jpg);
+    display: inline-block;
+    width:30%;
+    alignment: center;
+    height:15rem;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 15px;
+    text-align: center;
+    text-underline-color: black;
+    font-family: "Arial Black";
+    color: black;
+}
+
+.img3
+{
+    background-image: url(../images/desert.jpg);
+    width:30%;
+    display: inline-block;
+    height:15rem;
+    alignment: right;
+    margin-left: 15px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    text-underline-color: black;
+    font-family: "Arial Black";
+    color: black;
+}
+
+.img4
+{
+    background-image: url(../images/snacks.jpg);
+    display: inline-block;
+    width:30%;
+    right:0px;
+    height:15rem;
+    alignment: left;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left:15px;
+    margin-bottom:10px;
+    text-align: center;
+    text-underline-color: black;
+    font-family: "Arial Black";
+    color: black;
+}
+
+.img5
+{
+    background-image: url(../images/togo.png);
+    display: inline-block;
+    width:30%;
+    alignment: center;
+    height:15rem;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 15px;
+    text-align: center;
+    text-underline-color: black;
+    font-family: "Arial Black";
+    color: black;
+}
+
+.img6
+{
+    background-image:url(../images/table.jpg);
+    width:30%;
+    display: inline-block;
+    height:15rem;
+    alignment: right;
+    margin-left: 15px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: "Arial Black";
+    text-underline-color: black;
+    color: black;
+}
+.img {
+
+    display: inline-block;
+    width: 90%;
+    right: 0px;
+    height: 15rem;
+    alignment: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Arial Black";
+    color: black;
+
+}
+
+.mystyle
+{
+    width:75px;
+    height:25px
+}
+
+li.menu-item
+{
+    margin:0 0 10px 0;
+}
+
+hr{
+    border:none;
+    border-top: 1px dotted #385a94;
+    color:#0000ff;
+    background-color: #0000ff;
+    height: 1px;
+    width:50%;
+}
+
+.form-inline .form-group input#count
+{
+    width:150px;
+}
+.form-inline .form-group input#time
+{
+    width:150px;
+}
+.form-inline .form-group input#dte
+{
+    width:200px;
+}
+.form-inline .form-group input#email
+{
+    width:150px;
+}
+.form-inline .form-group input#name
+{
+    width:150px;
+}
+.form-inline .form-group input#mno
+{
+    width:150px;
+}
+
+.footer
+{
+
+    font-family: "Arial Black";
+    font-size:15px;
+}
+
+

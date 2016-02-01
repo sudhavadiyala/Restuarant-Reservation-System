@@ -1,0 +1,38 @@
+
+[
+{
+   "id" : "first",
+   "imageUrl" : "../images/buffet.jpg"
+},
+{
+"id" : "second",
+"imageUrl" : "../images/desert.jpg"
+
+},
+{
+"id" : "third",
+"imageUrl" : "../images/snacks.jpg"
+
+},
+{
+"id" : "fourth",
+"imageUrl" : "../images/thali.jpg"
+
+},
+{
+"id" : "fivth",
+"imageUrl" : "../images/v07.jpg"
+
+},
+{
+"id" : "sixth",
+"imageUrl" : "../images/table.jpg"
+
+},
+{
+"id" : "seventh",
+"imageUrl" : "../images/togo.jpg"
+
+}
+
+]

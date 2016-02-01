@@ -1,0 +1,93 @@
+<!DOCTYPE html  >
+
+<html ng-app="myApp" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <title>Restuarant Reservation System</title>
+    <!-------------Script Loading-------------------->
+
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="script.js"></script>
+
+
+    <link rel='stylesheet' href='package/styling.css' type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-------------Script Loading Ends --------------->
+</head>
+
+<body ng-contoller="myCtrl">
+<!---------------------------Header-------------------- -------->
+<div id="outer-circle">
+    <div id="inner-circle">
+        <p class="welcome">
+            Reservation System
+        </p>
+    </div>
+</div>
+<div class="menu">
+    <ul class="list-inline">
+        <li  class="menu-item">
+            <a href="#">Main Menu</a>
+        </li>
+        <li class="menu-item">
+            <a href="#location">Location</a>
+        </li>
+        <li class="menu-item">
+            <a href="#contact">Contact Us</a>
+        </li>
+        <li class="menu-item">
+            <a href="#photos">Photo</a>
+        </li>
+        <li class="menu-item">
+            <a href="#book">BookTable</a>
+        </li>
+        <li class="menu-item">
+            <button type="button" class="btn">Owner Login</button>
+        </li>
+        <li style="float:right">
+            <a href="../index.html"></a>
+        </li>
+
+        <!---database and other pages design ------>
+        <!-----general guide lines to be implemented------->
+        <!-------all browser compatability---------->
+
+    </ul>
+</div>
+<br>
+<br>
+<!----------------------------------End-Header------------------------->
+<!----------Main Body  --------------------->
+
+<div ng-view>
+
+</div>
+
+<!-----------End Body---------------------------->
+<!-------------Footer-------------------------------->
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <ul class="list-inline">
+        <li class="menu-item1">
+            <a href="../index.html">Privacy Policy</a>
+        </li>
+        <li class="menu-item1">
+            <a href="../index.html">Terms of Use</a>
+        </li>
+        <li class="menu-item1">
+            <a href="../index.html">Sitemap</a>
+        </li>
+        <li class="menu-item1">
+            <a href="../index.html">Mobile site</a>
+        </li>
+    </ul>
+    <p align="center" class="footer">Copyright © 2016 Reservation System, Inc. 2001 Gemini St Ste 700, Houston TX 77058 - All rights reserved</p>
+</div>
+<!---------------End of Footer----------------------------->
+</body>
+</html>
